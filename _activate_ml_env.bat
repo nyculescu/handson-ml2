@@ -1,2 +1,4 @@
-cd D:\work\ml\handson-ml2
-.\ml_env\Scripts\activate
+@echo off
+cd %~dp0\ml_env\Scripts
+.\activate
+pause
